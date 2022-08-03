@@ -1,0 +1,7 @@
+<h2> this is message from parent: "{{item}}"</h2>
+<hr>
+<div>
+<label > send message to perent</label>
+<input type="text" #message >
+<button type="button" (click)="addNewEvent(message.value)"> send</button>
+</div>
